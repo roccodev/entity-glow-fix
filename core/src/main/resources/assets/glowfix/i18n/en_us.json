@@ -1,0 +1,6 @@
+{
+  "glowfix.settings.enabled.name": "Enable glowing entities",
+  "glowfix.settings.enabled.description": "Whether to show an outline for glowing entities, like in 1.9+. Note: glowing data needs to be sent by the server.",
+  "glowfix.settings.glowSelf.name": "Enable glowing self",
+  "glowfix.settings.glowSelf.description": "Whether to enable glowing for yourself in third-person view"
+}
