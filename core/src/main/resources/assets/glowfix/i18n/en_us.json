@@ -27,5 +27,7 @@
   "glowfix.settings.customColors.red.name": "Red",
   "glowfix.settings.customColors.lightPurple.name": "Light Purple",
   "glowfix.settings.customColors.yellow.name": "Yellow",
-  "glowfix.settings.customColors.white.name": "White"
+  "glowfix.settings.customColors.white.name": "White",
+
+  "glowfix.ui.reset": "Reset"
 }

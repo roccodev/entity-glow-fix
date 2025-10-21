@@ -1,43 +1,42 @@
 package dev.rocco.mods.laby.glowfix;
 
-import net.labymod.api.client.gui.screen.widget.widgets.input.color.ColorPickerWidget;
 import net.labymod.api.configuration.loader.Config;
 import net.labymod.api.configuration.loader.annotation.Exclude;
 import net.labymod.api.configuration.loader.property.ConfigProperty;
 import net.labymod.api.util.Color;
 
 public class GlowColorConfig extends Config {
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> black = new ConfigProperty<>(Color.BLACK);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> darkBlue = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> darkGreen = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> darkAqua = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> darkRed = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> darkPurple = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> gold = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> gray = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> darkGray = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> blue = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> green = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> aqua = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> red = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> lightPurple = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> yellow = new ConfigProperty<>(Color.WHITE);
-  @ColorPickerWidget.ColorPickerSetting
+  @ResettableColor.ResettableColorSetting
   private final ConfigProperty<Color> white = new ConfigProperty<>(Color.WHITE);
 
   @Exclude
