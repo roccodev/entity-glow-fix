@@ -2,5 +2,30 @@
   "glowfix.settings.enabled.name": "Enable glowing entities",
   "glowfix.settings.enabled.description": "Whether to show an outline for glowing entities, like in 1.9+. Note: glowing data needs to be sent by the server.",
   "glowfix.settings.glowSelf.name": "Enable glowing self",
-  "glowfix.settings.glowSelf.description": "Whether to enable glowing for yourself in third-person view"
+  "glowfix.settings.glowSelf.description": "Whether to enable glowing for yourself in third-person view",
+  "glowfix.settings.alwaysGlowSelf.name": "Always glow self",
+  "glowfix.settings.alwaysGlowSelf.description": "Whether to enable glowing for yourself even when not supported by the server. Useful for troubleshooting.",
+
+  "glowfix.settings.header.colors.name": "Colors",
+
+  "glowfix.settings.useVanillaColors.name": "Use vanilla glow colors",
+  "glowfix.settings.useVanillaColors.description": "Whether to use the vanilla team colors for glow effects. Disable to unlock the Custom glow colors setting.",
+  "glowfix.settings.customColors.name": "Custom glow colors",
+
+  "glowfix.settings.customColors.black.name": "Black",
+  "glowfix.settings.customColors.darkBlue.name": "Dark Blue",
+  "glowfix.settings.customColors.darkGreen.name": "Dark Green",
+  "glowfix.settings.customColors.darkAqua.name": "Dark Aqua",
+  "glowfix.settings.customColors.darkRed.name": "Dark Red",
+  "glowfix.settings.customColors.darkPurple.name": "Dark Purple",
+  "glowfix.settings.customColors.gold.name": "Gold",
+  "glowfix.settings.customColors.gray.name": "Gray",
+  "glowfix.settings.customColors.darkGray.name": "Dark Gray",
+  "glowfix.settings.customColors.blue.name": "Blue",
+  "glowfix.settings.customColors.green.name": "Green",
+  "glowfix.settings.customColors.aqua.name": "Aqua",
+  "glowfix.settings.customColors.red.name": "Red",
+  "glowfix.settings.customColors.lightPurple.name": "Light Purple",
+  "glowfix.settings.customColors.yellow.name": "Yellow",
+  "glowfix.settings.customColors.white.name": "White"
 }
