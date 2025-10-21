@@ -1,5 +1,6 @@
 package dev.rocco.mods.laby.glowfix.v1_8_9.mixins;
 
+import com.llamalad7.mixinextras.sugar.Local;
 import dev.rocco.mods.laby.glowfix.v1_8_9.GlExt;
 import net.minecraft.client.renderer.entity.RendererLivingEntity;
 import net.minecraft.entity.EntityLivingBase;
@@ -29,12 +30,13 @@ public abstract class MixinMatch19Glow {
           value = "INVOKE",
           target = "net/minecraft/client/renderer/entity/RendererLivingEntity.renderModel(Lnet/minecraft/entity/EntityLivingBase;FFFFFF)V"
   ))
-  public void fixLayerOutlines(RendererLivingEntity<?> renderer, EntityLivingBase entity, float a, float b, float c, float d, float e, float f) {
+  public void fixLayerOutlines(RendererLivingEntity<?> renderer, EntityLivingBase entity, float a, float b, float c,
+                               float d, float e, float f, @Local(ordinal = 1, argsOnly = true) float partialTicks) {
     // Render layers in outline pass
     ((RendererInvoker) renderer).callRenderModel(entity, a, b, c, d, e, f);
     if (((MixinMatch19Glow) (RendererInvoker) renderer).renderOutlines
             && (!(entity instanceof EntityPlayer player) || !player.isSpectator())) {
-      ((RendererInvoker) renderer).callRenderLayers(entity, a, b, 1.0f /* partial ticks */, c, d, e, 0.0625F);
+      ((RendererInvoker) renderer).callRenderLayers(entity, a, b, partialTicks, c, d, e, 0.0625F);
     }
   }
 
